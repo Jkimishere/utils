@@ -13,7 +13,7 @@ from time import time
 
 
 #training loop
-def training_loop(epochs, model, trainloader,loss_fn, optimizer):
+def training_loop( model,epochs, trainloader,loss_fn, optimizer):
         training_start = time()
         for epoch in range(epochs):
             loss = 0.0
