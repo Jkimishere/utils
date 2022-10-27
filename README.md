@@ -16,6 +16,10 @@ torchutils.dataloader.py
 
 
 
+
+
+
+
 torchutils.loops.py
 
     training_loop(epochs, model, trainloader,loss_fn, optimizer)
@@ -25,6 +29,10 @@ torchutils.loops.py
 
     def testing_loop(model,testloader):
     basic testing loop
+
+
+
+
 
 
 
