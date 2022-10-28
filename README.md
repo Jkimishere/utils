@@ -1,7 +1,14 @@
 # pytorch utilities
 
+How to use: 
+1. clone this repository
+2. from .utils import torchutils_(name)
 
-torchutils.dataloader.py
+
+
+
+
+torchutils_dataloader.py
 
     class category_in_filename_data_loader(data.Dataset)
 
@@ -20,7 +27,7 @@ torchutils.dataloader.py
 
 
 
-torchutils.loops.py
+torchutils_loops.py
 
     training_loop(epochs, model, trainloader,loss_fn, optimizer)
     basic training loop that prints out loss and time for each epoch
@@ -36,7 +43,7 @@ torchutils.loops.py
 
 
 
-torchutils.basic.py
+torchutils_basic.py
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     set device to cuda or cpu, device-agnostic code
